@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    background-image: url("./img.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: black;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    font-size: xxx-large;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.rect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.smallFont {
+    font-family: cursive;
+}
